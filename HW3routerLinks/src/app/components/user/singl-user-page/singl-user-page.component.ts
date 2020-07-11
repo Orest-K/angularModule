@@ -11,7 +11,7 @@ import {Posts} from '../../../interfacesFetch/posts';
   styleUrls: ['./singl-user-page.component.css']
 })
 export class SinglUserPageComponent implements OnInit {
-singleUser: Users[];
+singleUser: Users;
 userposts: Posts[];
   constructor(private usersService: UsersService, private activatedRoute: ActivatedRoute,
               private postsService: PostsService) {
