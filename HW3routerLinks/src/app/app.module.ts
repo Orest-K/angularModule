@@ -11,6 +11,7 @@ import { UserPreviuComponent } from './components/user/user-previu/user-previu.c
 import { PostpreviuComponent } from './components/posts/postpreviu/postpreviu.component';
 import { SinglePostComponent } from './components/posts/single-post/single-post.component';
 import { AlboumPreviuComponent } from './components/albums/alboum-previu/alboum-previu.component';
+import { AllPostUserComponent } from './components/posts/all-post-user/all-post-user.component';
 
 const links: Routes = [
   {path: 'AllUsers', component: AllUsersComponent},
@@ -30,7 +31,8 @@ const links: Routes = [
     UserPreviuComponent,
     PostpreviuComponent,
     SinglePostComponent,
-    AlboumPreviuComponent
+    AlboumPreviuComponent,
+    AllPostUserComponent
   ],
   imports: [
     BrowserModule,
