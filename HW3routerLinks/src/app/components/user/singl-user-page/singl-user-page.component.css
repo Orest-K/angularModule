@@ -1,0 +1,26 @@
+.userbody{
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid rgba(89, 248, 89, 0.79);
+  border-radius: 3px;
+  display: flow-root;
+  width: 100%;
+
+}
+.adresuser{
+  width: 45%;
+  padding: 7px;
+  float: left;
+  border: 1.3px solid #217EFB;
+  background-color: #fafafa;
+}
+.companyuser{
+  width: 45%;
+  padding: 7px;
+  float: right;
+  border: 1.3px solid #217EFB;
+  background-color: #fafafa;
+}
+h3{
+  text-align: center;
+}
