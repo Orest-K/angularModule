@@ -11,7 +11,7 @@ import {Posts} from '../../../models/posts';
   styleUrls: ['./singl-user-page.component.css']
 })
 export class SinglUserPageComponent {
-singleUser: Users[];
+singleUser: Users;
 userposts: Posts[];
   constructor(private usersService: UsersService, private activatedRoute: ActivatedRoute,
               private postsService: PostsService) {
