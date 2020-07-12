@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Posts} from '../../../interfacesFetch/posts';
+import {Posts} from '../../../models/posts';
 
 @Component({
   selector: 'app-all-post-user',

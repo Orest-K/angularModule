@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {PostsService} from '../../../services/posts.service';
-import {Posts} from '../../../interfacesFetch/posts';
+import {Posts} from '../../../models/posts';
 
 @Component({
   selector: 'app-allposts',

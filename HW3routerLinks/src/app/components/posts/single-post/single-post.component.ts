@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Posts} from '../../../interfacesFetch/posts';
+import {Posts} from '../../../models/posts';
 import {PostsService} from '../../../services/posts.service';
 import {ActivatedRoute} from '@angular/router';
 import {single} from 'rxjs/operators';
@@ -10,7 +10,7 @@ import {single} from 'rxjs/operators';
   styleUrls: ['./single-post.component.css']
 })
 export class SinglePostComponent implements OnInit {
-  singlePost: Posts;
+  singlePost: Posts[];
   constructor(private postsService: PostsService, private activatedRoute: ActivatedRoute) {
     this.postsService.getSinglePost(activatedRoute.snapshot.params.id)
       .subscribe(singlep => this.singlePost = singlep);

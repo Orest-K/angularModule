@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {UsersService} from '../../services/users.service';
-import {Users} from '../../interfacesFetch/users/users';
+import {Users} from '../../models/users/users';
 
 @Component({
   selector: 'app-root',

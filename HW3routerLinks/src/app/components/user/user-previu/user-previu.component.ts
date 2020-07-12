@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Users} from '../../../interfacesFetch/users/users';
+import {Users} from '../../../models/users/users';
 import {Observable} from 'rxjs';
 
 @Component({

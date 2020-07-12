@@ -1,1 +1,4 @@
-<p>all-albums works!</p>
+<div class="albumsPrevu" *ngFor="let album of albums">
+{{album.id}} - {{album.title}}
+  <button (click)="toAlboumPhoto(album)">Look Photo</button>
+</div>
