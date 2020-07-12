@@ -9,7 +9,6 @@ import { AllAlbumsComponent } from './components/albums/all-albums/all-albums.co
 import { SinglUserPageComponent } from './components/user/singl-user-page/singl-user-page.component';
 import { PostpreviuComponent } from './components/posts/postpreviu/postpreviu.component';
 import { SinglePostComponent } from './components/posts/single-post/single-post.component';
-import { AlboumPreviuComponent } from './components/albums/alboum-previu/alboum-previu.component';
 import { AllPostUserComponent } from './components/posts/all-post-user/all-post-user.component';
 
 const links: Routes = [
@@ -29,7 +28,6 @@ const links: Routes = [
     SinglUserPageComponent,
     PostpreviuComponent,
     SinglePostComponent,
-    AlboumPreviuComponent,
     AllPostUserComponent
   ],
   imports: [
