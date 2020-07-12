@@ -15,8 +15,4 @@ export class AllUsersComponent{
       this.alluser = value;
     });
   }
-  toSingleUser(user: Users): void {
-      this.router.navigate(['users', user.id]);
-  }
-
 }

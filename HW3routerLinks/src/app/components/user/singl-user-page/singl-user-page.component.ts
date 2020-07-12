@@ -16,6 +16,7 @@ userposts: Posts[];
   constructor(private usersService: UsersService, private activatedRoute: ActivatedRoute,
               private postsService: PostsService) {
     const id = activatedRoute.snapshot.params.id;
+    this.singleUser = history.state.users;
     this.usersService.getSingleUser(id)
       .subscribe(singleUseri => this.singleUser = singleUseri );
     this.postsService.getAllPostUser(id)
